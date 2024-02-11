@@ -1,0 +1,24 @@
+
+.todo {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+
+.todo-form {
+    width: 25vw;
+    padding: 30px;
+    background-color: gray;
+
+    input {
+        width: 75%;
+        height: 50px;
+    }
+
+    button {
+        width: 25%;
+        height: 50px;
+    }
+}

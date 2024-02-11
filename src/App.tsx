@@ -1,7 +1,11 @@
+import Todo from "./components/todo/Todo"
+
+import "./styles/index.scss"
+
 function App() {
   return (
     <>
-      Hello, world!
+      <Todo/>
     </>
   )
 }
