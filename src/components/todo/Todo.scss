@@ -1,14 +1,18 @@
+$todo-width: 25vw;
+
 
 .todo {
     margin-top: 200px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 40px;
 }
 
 
 .todo-form {
-    width: 25vw;
+    width: $todo-width;
     padding: 30px;
     background-color: gray;
 
@@ -21,4 +25,9 @@
         width: 25%;
         height: 50px;
     }
+}
+
+.todo-item {
+    width: $todo-width;
+    background-color: red;
 }
