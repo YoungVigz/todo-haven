@@ -1,31 +1,38 @@
-$todo-width: 25vw;
+$todo-width: 25%;
+$primary: #a13eaa;
+$background: rgb(32, 57, 109);
 
 .todo {
-    margin-top: 200px;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 40px;
 }
 
 .todo-form {
     width: $todo-width;
     padding: 30px;
-    background-color: gray;
+    background-color: $background;
 
     input {
         width: 75%;
         height: 50px;
+        background-color: $background;
+        border: 3px solid $primary;
     }
 
     button {
         width: 25%;
         height: 50px;
+        background-color: $primary;
+        border: none;
     }
 }
 
 .todo-item {
     width: $todo-width;
-    background-color: red;
+    height: 50px;
+    background-color: $primary;
 }
