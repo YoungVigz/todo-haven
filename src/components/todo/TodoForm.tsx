@@ -9,12 +9,14 @@ export const TodoForm = ({addTodo}: TodoFormProps) => {
 
     const submitTodo = (e: React.FormEvent) => {
         e.preventDefault()
+
         addTodo(value)
+        setValue("")
     }
 
     return (
         <form className="todo-form" onSubmit={submitTodo}>
-            <input type="text" onChange={e => {
+            <input type="text" value={value} onChange={e => {
                 setValue(e.target.value)
             }}/>
             <button type="submit">Add Todo</button>
