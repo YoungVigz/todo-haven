@@ -35,4 +35,7 @@ $background: rgb(32, 57, 109);
     width: $todo-width;
     height: 50px;
     background-color: $primary;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid $background;
 }
