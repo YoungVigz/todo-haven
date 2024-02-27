@@ -5,6 +5,7 @@ import { Projects } from "./pages/Projects"
 import { Todos } from "./pages/Todos"
 
 import "./styles/index.scss"
+import "./styles/index.css"
 
 function App() {
   return (
