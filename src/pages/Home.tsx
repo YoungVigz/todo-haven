@@ -4,7 +4,7 @@ export const Home = () => {
   const navigate = useNavigate()
 
   const authRedirect = () => {
-    navigate("/auth")
+    navigate("/login")
   }
 
   return (

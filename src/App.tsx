@@ -17,7 +17,7 @@ function App() {
       <div className="content">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/auth" element={<Auth />} />
+          <Route path="/login" element={<Auth />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/todos/:id" element={<Todos />} />
         </Routes>

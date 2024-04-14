@@ -27,7 +27,7 @@ export const Todos = () => {
 
   useEffect(() => {
     if(!localStorage.getItem("token")) {
-      navigation("/auth")
+      navigation("/login")
     }
 
     const fetchLists = async () => {
