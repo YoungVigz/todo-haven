@@ -22,7 +22,7 @@ export const Projects = () => {
 
   useEffect(() => {
     if(!localStorage.getItem("token")) {
-      navigation("/auth")
+      navigation("/login")
     }
 
     api.get("/project", {

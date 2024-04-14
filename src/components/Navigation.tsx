@@ -29,10 +29,10 @@ const Navigation = () => {
             { localStorage.getItem("token") ? 
                 <>
                     <Link to="projects" className="mr-5">Projects!</Link>
-                    <Link to="auth" onClick={() => logoutPc()}>Logout!</Link> 
+                    <Link to="login" onClick={() => logoutPc()}>Logout!</Link> 
                 </>
                 : 
-                <Link to="auth">Register/Login!</Link>   
+                <Link to="login">Register/Login!</Link>   
             }
                 
             </div>
@@ -49,11 +49,11 @@ const Navigation = () => {
                         </div>
 
                         <div className="">
-                            <Link to="auth" onClick={() => logoutMobile()}>Logout!</Link>
+                            <Link to="login" onClick={() => logoutMobile()}>Logout!</Link>
                         </div>
                     </div>
                 : 
-                    <Link to="auth" onClick={() => toggleMenu()}>Register/Login!</Link>
+                    <Link to="login" onClick={() => toggleMenu()}>Register/Login!</Link>
                 }
 
             </div>
