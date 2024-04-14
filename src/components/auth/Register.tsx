@@ -17,7 +17,7 @@ export const Register = () => {
     const email = (e.currentTarget[1] as HTMLInputElement).value
     const password = (e.currentTarget[2] as HTMLInputElement).value
     
-    await axios.post("http://localhost:4000/user/register", {
+    await axios.post("https://todo-haven-api.onrender.com/user/register", {
       login,
       email,
       password
