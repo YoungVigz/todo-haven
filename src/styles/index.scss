@@ -6,9 +6,62 @@
     margin: 0;
     padding: 0;
     color: white;
+    background-color: #040113;
 }
 
-body {
-    background: rgb(119,67,236);
-    background: linear-gradient(130deg, rgba(119,67,236,1) 61%, rgba(221,45,253,1) 100%);
+header {
+    height: 10%;
 }
+
+footer {
+    height: 10%;
+}
+
+.content {
+    height: 80%;
+}
+
+.try {
+    background-color: #9407aa81;
+    border-top: solid 2px #9307AA;
+}
+
+.circle {
+    width: 12rem;
+    height: 12rem;
+    background-color: #8B1C8A;
+    border-radius: 100%;
+    filter: blur(75px);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    position: absolute;
+}
+
+.main {
+    z-index: 1;
+}
+
+.authInput {
+    background-color: #9407aa41;
+    border-top: solid 2px #9307AA;
+}
+
+.authSumbit {
+    background-color: #9407aa;
+    border-top: solid 2px #9307AA;
+}
+
+.projectsContainer {
+    background-color: #9407aa36;
+}
+
+.primary {
+    background-color: #9307AA;
+}
+
+.projectItem {
+    border-bottom: 2px solid #9307AA;
+}
+
